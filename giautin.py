@@ -2,10 +2,12 @@ import cv2
 import numpy as np
 
 def hide_text_in_image(image_path, text):
+    #Đọc ảnh từ đường dẫn image_path và lưu vào biến img dưới dạng mảng Numpy
     img = cv2.imread(image_path)
+    #Chuyển đổi mảng ba chiều img thành một danh sách một chiều chứa tất cả các giá trị pixel của ảnh.
     data = list(img.flatten())
     
-    # Chuyển đổi văn bản thành dãy bit
+    # Chuyển đổi văn bản thành dãy bit. Mỗi ký tự trong chuỗi sẽ được chuyển đổi thành 8 bit
     binary_data = ''.join(format(ord(i), '08b') for i in text)
 
     # Kiểm tra xem hình ảnh có đủ dung lượng để chứa dữ liệu không

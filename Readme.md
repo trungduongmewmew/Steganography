@@ -10,7 +10,8 @@ Thuật toán **Least Significant Bit (LSB)** là một phương pháp phổ bi�
     
     *   Thay vì thay đổi các bit quan trọng của màu sắc, thuật toán sẽ thay đổi bit ít quan trọng nhất (LSB). Ví dụ, thay vì thay đổi bit cao nhất của một giá trị màu (ví dụ 11111111), thuật toán thay đổi bit cuối cùng (LSB) (ví dụ 11111110).
         
-    *   Điều này giúp giữ nguyên phần lớn màu sắc hình ảnh, vì thay đổi 1 bit ít quan trọng không làm thay đổi quá nhiều giá trị màu sắc.
+    *   Điều này giúp giữ nguyên phần lớn màu sắc hình ảnh, vì thay đổi 1 bit ít quan trọng không làm thay đổi quá nhiều giá trị màu sắc.  
+    https://imgur.com/Dfmz7lJ
         
 4.  **Giấu Thông Tin**: Thông tin bí mật sẽ được mã hóa thành dạng nhị phân và được nhúng vào các bit ít quan trọng nhất của các pixel trong hình ảnh. Mỗi bit của thông tin sẽ thay thế LSB của từng pixel.
     
