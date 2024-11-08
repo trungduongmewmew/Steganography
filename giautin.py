@@ -28,5 +28,5 @@ def hide_text_in_image(image_path, text):
 
 # Ví dụ sử dụng
 image_path = "Images.png"
-text_to_hide = "Hello, I'm Duong"
+text_to_hide = "Hello ! I'm Duong Trung Duong.I'm interested in security,hacking,devsecops and cloud.I'm currently learning cloud, machine learning, and security.How to reach me : Email : duongtrungduong86@gmail.com.Fun fact: Every problem has a solution, you just haven't thought of it yet."
 hide_text_in_image(image_path, text_to_hide)

@@ -34,6 +34,8 @@ Giả sử bạn có một giá trị pixel màu đỏ trong hình ảnh với g
     
     *   Cần phải có một thuật toán giải mã để trích xuất thông tin.
         
-    *   Nếu người nhận không biết phương pháp giấu tin, thông tin có thể bị lãng quên hoặc bị mất.
+    *   Nếu người nhận không biết phương pháp giấu tin, thông tin có thể bị lãng quên hoặc bị mất.  
+Vì sự thay đổi các bit này rất ít ảnh hưởng đến màu sắc của hình ảnh nên mắt thường con người rất khó nhận ra . Ta sẽ sử dụng chương trình sosanh.py để thể hiện điểm khác biệt trước và sau khi giấu tin  
+![atl](images/diff.png)
 
 [def]: images/LBS.png
